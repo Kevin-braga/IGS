@@ -1,2 +1,2 @@
 # IGS
-Simple django project using djangorestframework to create a admin panel crud for employees
+Simple django project using djangorestframework to manage employees data
