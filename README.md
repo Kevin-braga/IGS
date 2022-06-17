@@ -6,12 +6,13 @@ The first thing to do is to clone the repository:
 
 ```sh
 $ git clone https://github.com/Kevin-braga/IGS.git
+$ cd IGS-main
 ```
 
 Create a virtual environment to install dependencies in and activate it:
 
 ```
-$ virtualenv2 --no-site-packages env
+$ virtualenv env
 $ source env/bin/activate
 ```
 
@@ -24,7 +25,6 @@ Note the `(env)` in front of the prompt. This indicates that this terminal sessi
 
 Once `pip` has finished downloading the dependencies:
 ```sh
-(env)$ cd IGS
 (env)$ python manage.py createsuperuser
 (env)$ python manage.py runserver
 ```
